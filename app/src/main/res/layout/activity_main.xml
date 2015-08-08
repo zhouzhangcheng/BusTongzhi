@@ -15,7 +15,7 @@
             android:layout_height="match_parent"
             android:layout_gravity="center"
             android:layout_marginLeft="20dp"
-            android:src="@mipmap/change"
+            android:src="@drawable/change"
             android:id="@+id/change_place" />
 
         <LinearLayout
@@ -34,14 +34,14 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_gravity="center"
-                    android:src="@mipmap/start" />
+                    android:src="@drawable/start" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginLeft="10dp"
                     android:gravity="center_vertical"
-                    android:text="我当前位置"
+                    android:text="请输入起点"
                     android:textColor="#88000000"
                     android:textSize="16sp"
                     android:id="@+id/start_place" />
@@ -59,7 +59,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_gravity="center"
-                    android:src="@mipmap/end" />
+                    android:src="@drawable/end" />
 
                 <TextView
                     android:layout_width="match_parent"
@@ -82,7 +82,7 @@
             android:layout_gravity="center"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
-            android:src="@mipmap/btn_clear"
+            android:src="@drawable/btn_clear"
             android:id="@+id/delete_place" />
     </LinearLayout>
 
